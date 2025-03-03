@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RZA Computers</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <h1>RZA Computers</h1>
+        <button class="menu-toggle">☰</button>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Laptops</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>      
+
+    <section>
+        <h2>Welcome to RZA Computers</h2>
+        <p>We offer the best laptops and accessories in Kampala.</p>
+    </section>
+
+    <section id="products">
+      <h2>Our Products</h2>
+      
+      <!-- Filter Buttons -->
+      <section id="product-filters">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="laptop">Laptops</button>
+        <button class="filter-btn" data-filter="accessory">Accessories</button>
+      </section>
+      
+      <!-- Parent Container for All Product Cards -->
+      <div class="product-container">
+        <!-- Dell Latitude 7280 -->
+        <div class="product-card" data-category="laptop">
+          <img src="images/dell-latitude-7280.PNG" alt="Dell Latitude 7280" loading="lazy">
+          <h3>Dell Latitude 7280</h3>
+          <p class="tagline">Powerful performance in a sleek design.</p>
+          <p>A reliable business laptop with high performance.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Processor: Intel Core i7</li>
+              <li>RAM: 16GB</li>
+              <li>Storage: 512GB SSD</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 750,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Dell Latitude 3380 -->
+        <div class="product-card" data-category="laptop">
+          <img src="https://via.placeholder.com/150" alt="Dell Latitude 3380">
+          <h3>Dell Latitude 3380</h3>
+          <p>A compact and efficient laptop for everyday tasks.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Processor: Intel Core i5</li>
+              <li>RAM: 8GB</li>
+              <li>Storage: 256GB SSD</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 650,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- HP EliteBook 840 G5 -->
+        <div class="product-card" data-category="laptop">
+          <img src="https://via.placeholder.com/150" alt="HP EliteBook 840 G5">
+          <h3>HP EliteBook 840 G5</h3>
+          <p>A powerful and sleek laptop for professionals.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Processor: Intel Core i7</li>
+              <li>RAM: 16GB</li>
+              <li>Storage: 512GB SSD</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 1,200,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- HP EliteBook 840 G6 -->
+        <div class="product-card" data-category="laptop">
+          <img src="images/hp-elitebook-840-g6.jpg" alt="HP EliteBook 840 G6">
+          <h3>HP EliteBook 840 G6</h3>
+          <p class="tagline">Lightweight, powerful, and built for business.</p>
+          <p>Experience efficiency with an 8th Gen Intel processor and 8GB RAM, perfect for professional tasks.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Processor: 8th Gen Intel Core i5</li>
+              <li>RAM: 8GB</li>
+              <li>Storage: 256GB SSD</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 1,000,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Dell Latitude 7490 -->
+        <div class="product-card" data-category="laptop">
+          <img src="images/dell-latitude-7490.jpg" alt="Dell Latitude 7490">
+          <h3>Dell Latitude 7490</h3>
+          <p class="tagline">Business-ready and robust.</p>
+          <p>Optimized for productivity with an 8th Gen Intel processor and 8GB RAM, ideal for busy professionals.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Processor: 8th Gen Intel Core i5</li>
+              <li>RAM: 8GB</li>
+              <li>Storage: 256GB SSD</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 950,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Lenovo ThinkPad T490 -->
+        <div class="product-card" data-category="laptop">
+          <img src="images/lenovo-thinkpad-t490.jpg" alt="Lenovo ThinkPad T490">
+          <h3>Lenovo ThinkPad T490</h3>
+          <p class="tagline">Durable and powerful for business on the go.</p>
+          <p>Features an Intel Core i5 processor, 8GB RAM, and a robust design for everyday use.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Processor: Intel Core i5</li>
+              <li>RAM: 8GB</li>
+              <li>Storage: 256GB SSD</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 900,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Apple MacBook Pro 13 -->
+        <div class="product-card" data-category="laptop">
+          <img src="images/macbook-pro-13.jpg" alt="Apple MacBook Pro 13">
+          <h3>Apple MacBook Pro 13</h3>
+          <p class="tagline">Sleek design meets powerful performance.</p>
+          <p>Equipped with an Intel Core i5, 8GB RAM and Retina display, ideal for creative professionals.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Processor: Intel Core i5</li>
+              <li>RAM: 8GB</li>
+              <li>Storage: 256GB SSD</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 1,500,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Accessories -->
+        
+        <!-- Wireless Mouse -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/wireless-mouse.jpg" alt="Wireless Mouse">
+          <h3>Wireless Mouse</h3>
+          <p class="tagline">Smooth, precise, and cordless freedom.</p>
+          <p>A comfortable and responsive mouse with adjustable DPI settings.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Connectivity: Wireless</li>
+              <li>Battery Life: 12 months</li>
+              <li>Ergonomic Design</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 50,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Mechanical Keyboard -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/mechanical-keyboard.jpg" alt="Mechanical Keyboard">
+          <h3>Mechanical Keyboard</h3>
+          <p class="tagline">Tactile feedback for superior typing.</p>
+          <p>Durable keys with customizable RGB lighting for an enhanced experience.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Switch Type: Blue switches</li>
+              <li>Backlit: RGB</li>
+              <li>USB Connectivity</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 120,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Laptop Sleeve -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/laptop-sleeve.jpg" alt="Laptop Sleeve">
+          <h3>Laptop Sleeve</h3>
+          <p class="tagline">Protect your laptop in style.</p>
+          <p>Lightweight and water-resistant sleeve available in multiple colors.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Size: 13-15 inch</li>
+              <li>Material: Neoprene</li>
+              <li>Multiple Colors</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 40,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- USB Hub -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/usb-hub.jpg" alt="USB Hub">
+          <h3>USB Hub</h3>
+          <p class="tagline">Expand your connectivity options.</p>
+          <p>A 4-port USB hub for connecting multiple devices simultaneously.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Ports: 4 USB 3.0</li>
+              <li>Plug and Play</li>
+              <li>Compact Design</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 30,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Portable Charger -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/portable-charger.jpg" alt="Portable Charger">
+          <h3>Portable Charger</h3>
+          <p class="tagline">Keep your devices powered on the go.</p>
+          <p>High-capacity power bank with fast charging and dual USB ports.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Capacity: 10,000mAh</li>
+              <li>Fast Charging</li>
+              <li>Dual USB Ports</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 80,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- External Hard Drive -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/external-hard-drive.jpg" alt="External Hard Drive">
+          <h3>External Hard Drive</h3>
+          <p class="tagline">Extra storage at your fingertips.</p>
+          <p>Portable HDD with 1TB capacity, ideal for backups and extra storage.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Capacity: 1TB</li>
+              <li>USB 3.0</li>
+              <li>Compact Design</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 150,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Monitor Stand -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/monitor-stand.jpg" alt="Monitor Stand">
+          <h3>Monitor Stand</h3>
+          <p class="tagline">Ergonomic and sturdy for a better workspace.</p>
+          <p>Adjustable stand that fits most monitors and reduces neck strain.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Adjustable Height</li>
+              <li>Non-Slip Base</li>
+              <li>Universal Fit</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 60,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Webcam -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/webcam.jpg" alt="Webcam">
+          <h3>Webcam</h3>
+          <p class="tagline">High-definition video for conferences.</p>
+          <p>Full HD webcam with a built-in microphone for clear communication.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Resolution: 1080p</li>
+              <li>Built-in Microphone</li>
+              <li>USB Connectivity</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 70,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Bluetooth Speaker -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/bluetooth-speaker.jpg" alt="Bluetooth Speaker">
+          <h3>Bluetooth Speaker</h3>
+          <p class="tagline">Portable sound with deep bass.</p>
+          <p>Compact speaker offering clear sound and long battery life.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Bluetooth 5.0</li>
+              <li>Battery Life: 8 hours</li>
+              <li>Water-resistant</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 90,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+        
+        <!-- Laptop Cooling Pad -->
+        <div class="product-card" data-category="accessory">
+          <img src="images/laptop-cooling-pad.jpg" alt="Laptop Cooling Pad">
+          <h3>Laptop Cooling Pad</h3>
+          <p class="tagline">Keep your laptop cool under pressure.</p>
+          <p>Ergonomic cooling pad with adjustable fan speeds for optimal temperature control.</p>
+          <div class="product-specs">
+            <p><strong>Specs:</strong></p>
+            <ul>
+              <li>Fan Speed: Adjustable</li>
+              <li>USB Powered</li>
+              <li>Lightweight Design</li>
+            </ul>
+          </div>
+          <div class="product-price">
+            <p><strong>Price:</strong> UGX 40,000</p>
+          </div>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+    
+  
+     
+<section id="about">
+    <h2>About RZA Computers</h2>
+    <p>
+      At RZA Computers, we are dedicated to providing the best laptops and accessories
+      to our customers. Our mission is to empower you with technology that suits your needs.
+      With years of experience in the industry, we pride ourselves on quality, innovation, 
+      and excellent customer service.
+    </p>
+  </section>
+  
+  <section id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial">
+        <p>"RZA Computers provided outstanding service and the Dell Latitude 7280 I bought works perfectly!"</p>
+        <h4>- Jane Doe</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Great products and excellent customer support. I highly recommend RZA Computers."</p>
+        <h4>- John Smith</h4>
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have any questions? Reach us through any of the following:</p>
+    <div class="contact-buttons">
+        <a href="https://wa.me/256788165321" class="contact-btn whatsapp" target="_blank">WhatsApp</a>
+        <a href="mailto:cybercraft139@gmail.com" class="contact-btn email">Email</a>
+        <a href="tel:+256742053761" class="contact-btn call">Call</a>
+    </div>
+    <p>Visit us: Suncity Arcade, Kampala Road, Room G2</p>
+</section>
+
+<footer>
+    <div class="footer-content">
+      <p>&copy; 2025 RZA Computers. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="https://facebook.com/rzatex" target="_blank">Facebook</a>
+        <a href="https://instagram.com/rzatec" target="_blank">Instagram</a>
+        <!-- Add more social links if needed -->
+      </div>
+    </div>
+  </footer>
+  
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const menuToggle = document.querySelector('.menu-toggle');
+          const nav = document.querySelector('nav');
+          menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('active');
+          });
+        });
+      </script>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Get the modal and close button elements
+          const modal = document.getElementById('product-modal');
+          const modalClose = document.querySelector('.modal-content .close');
+      
+          // Select all "Learn More" buttons in product cards
+          const learnMoreButtons = document.querySelectorAll('.learn-more-btn');
+      
+          // Loop through each button and add a click event listener
+          learnMoreButtons.forEach(button => {
+            button.addEventListener('click', function(event) {
+              // Prevent the click event from bubbling up
+              event.stopPropagation();
+      
+              // Find the parent product card
+              const productCard = button.closest('.product-card');
+      
+              // Extract product details from the card
+              const title = productCard.querySelector('h3').textContent;
+              // Use the tagline if available
+              const taglineElement = productCard.querySelector('.tagline');
+              const tagline = taglineElement ? taglineElement.textContent : '';
+              // The first paragraph that's not the tagline; adjust if needed
+              const descriptionElement = productCard.querySelector('p:not(.tagline)');
+              const description = descriptionElement ? descriptionElement.textContent : '';
+              // Get the inner HTML of the specs and price sections
+              const specs = productCard.querySelector('.product-specs') ? productCard.querySelector('.product-specs').innerHTML : '';
+              const price = productCard.querySelector('.product-price') ? productCard.querySelector('.product-price').innerHTML : '';
+      
+              // Update the modal content dynamically
+              const modalBody = document.getElementById('modal-body');
+              modalBody.innerHTML = `
+                <h2>${title}</h2>
+                ${tagline ? `<p><em>${tagline}</em></p>` : ''}
+                <p>${description}</p>
+                ${specs}
+                ${price}
+              `;
+      
+              // Display the modal
+              modal.style.display = 'block';
+            });
+          });
+      
+          // Close the modal when the close button is clicked
+          modalClose.addEventListener('click', function() {
+            modal.style.display = 'none';
+          });
+      
+          // Also close the modal when clicking outside the modal content
+          window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+            }
+          });
+        });
+      </script>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // --- Modal Code ---
+          const modal = document.getElementById('product-modal');
+          const modalClose = document.querySelector('.modal-content .close');
+          const learnMoreButtons = document.querySelectorAll('.learn-more-btn');
+        
+          learnMoreButtons.forEach(button => {
+            button.addEventListener('click', function(event) {
+              event.stopPropagation();
+              const productCard = button.closest('.product-card');
+              const title = productCard.querySelector('h3').textContent;
+              const taglineElement = productCard.querySelector('.tagline');
+              const tagline = taglineElement ? taglineElement.textContent : '';
+              const descriptionElement = productCard.querySelector('p:not(.tagline)');
+              const description = descriptionElement ? descriptionElement.textContent : '';
+              const specs = productCard.querySelector('.product-specs') 
+                              ? productCard.querySelector('.product-specs').innerHTML 
+                              : '';
+              const price = productCard.querySelector('.product-price') 
+                              ? productCard.querySelector('.product-price').innerHTML 
+                              : '';
+        
+              const modalBody = document.getElementById('modal-body');
+              modalBody.innerHTML = `
+                <h2>${title}</h2>
+                ${tagline ? `<p><em>${tagline}</em></p>` : ''}
+                <p>${description}</p>
+                ${specs}
+                ${price}
+              `;
+              modal.style.display = 'block';
+            });
+          });
+        
+          modalClose.addEventListener('click', function() {
+            modal.style.display = 'none';
+          });
+        
+          window.addEventListener('click', function(event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+            }
+          });
+        
+          // --- Filtering Code ---
+          const filterButtons = document.querySelectorAll('.filter-btn');
+          const productCards = document.querySelectorAll('#products .product-card');
+
+        
+          filterButtons.forEach(btn => {
+            btn.addEventListener('click', function(event) {
+              event.preventDefault(); // Prevent any default behavior
+              
+              // Remove 'active' class from all buttons, then add it to the clicked button
+              filterButtons.forEach(button => button.classList.remove('active'));
+              btn.classList.add('active');
+        
+              // Get the filter value (e.g., "all", "laptop", "accessory")
+              const filterValue = btn.getAttribute('data-filter');
+        
+              // Loop through each product card
+              productCards.forEach(card => {
+                if (filterValue === 'all') {
+                  card.style.display = 'block';
+                } else {
+                  // Check if the product card's data-category matches the filter value
+                  if (card.getAttribute('data-category') === filterValue) {
+                    card.style.display = 'block';
+                  } else {
+                    card.style.display = 'none';
+                  }
+                }
+              });
+            });
+          });
+        });
+        </script>
+        
+      
+    <!-- Modal Structure -->
+<div id="product-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <!-- Modal body will be dynamically populated -->
+      <div id="modal-body">
+        <h2>Product Title</h2>
+        <p>Detailed information about the product goes here. You can include specs, images, pricing, and more.</p>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
