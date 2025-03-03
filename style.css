@@ -1,0 +1,389 @@
+/* General Styles */
+body {
+    background-color: #008080; /* Updated to teal */
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+header {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Style the header */
+header {
+    background-color: royalblue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: orange; /* You can change this color to match your brand */
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+.footer-content p {
+    margin: 0 0 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #008080;  /* Teal on hover for a nice accent */
+}
+
+
+/* Product Section Styling */
+#products {
+    padding: 20px;
+    background-color: #fff; /* White background for the products section */
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Space between product cards */
+}
+
+/* Product Card Enhancements */
+.product-card {
+    flex: 1 1 45%;  /* Each card takes about 45% width, so two cards fit side by side */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding-bottom: 10px; /* Extra padding to accommodate specs and price */
+}
+
+.product-card img {
+  display: block;
+  margin: 0; /* Remove any default margins */
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    padding: 0 10px 10px;
+}
+
+/* Specs Styling */
+.product-specs {
+    padding: 10px;
+    text-align: left;
+}
+
+.product-specs ul {
+    list-style: disc;
+    margin: 5px 0 0 20px;
+    padding: 0;
+}
+
+/* Price Styling */
+.product-price {
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    flex: 0 0 48%;  /* This means: don't grow, don't shrink, fixed width at 48% of container */
+    margin: 1%;     /* Small margin to add spacing around cards */
+  }
+}
+
+
+
+/* About Section Styling */
+#about {
+    padding: 20px;
+    background-color: #f4f4f4; /* A light background for contrast */
+    text-align: center;
+  }
+  
+  #about h2 {
+    margin-bottom: 10px;
+  }
+  
+  #about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1em;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+  
+/* Base styles for navigation links */
+nav ul.nav-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul.nav-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  nav ul.nav-links li a:hover {
+    color: #008080; /* Teal */
+    text-decoration: underline;
+  }
+  
+  /* Hamburger menu button (hidden on large screens) */
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    /* Show the hamburger button */
+    .menu-toggle {
+      display: block;
+    }
+    /* Hide the navigation menu by default */
+    nav {
+      display: none;
+    }
+    /* When nav has the 'active' class, display it */
+    nav.active {
+      display: block;
+      text-align: center;
+    }
+    /* Stack navigation links vertically */
+    nav ul.nav-links {
+      display: block;
+    }
+    nav ul.nav-links li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+ /* Testimonials Section Styling */
+#testimonials {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #testimonials h2 {
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 15px;
+    width: 45%;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial h4 {
+    font-weight: bold;
+    color: #008080; /* Teal for emphasis */
+    margin: 0;
+  }
+  
+  /* Responsive adjustment for testimonials */
+  @media (max-width: 600px) {
+    .testimonial {
+      width: 100%;
+    }
+  }
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contact-btn {
+    display: block;
+    width: 80%;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.whatsapp {
+    background-color: #25D366; /* WhatsApp Green */
+}
+
+.email {
+    background-color: #007BFF; /* Blue for Email */
+}
+
+.call {
+    background-color: #28A745; /* Green for Call */
+}
+
+.contact-btn:hover {
+    opacity: 0.8;
+}
+ /* Modal Overlay */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  /* Modal Content Box */
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto; /* Center vertically and horizontally */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%; /* 90% width on small screens */
+    max-width: 500px; /* Maximum width */
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  /* Close Button */
+  .modal-content .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-content .close:hover,
+  .modal-content .close:focus {
+    color: #000;
+    text-decoration: none;
+  }
+/* Tagline Styling */
+.product-card .tagline {
+  font-style: italic;
+  color: #555;
+  margin: 5px 10px;
+}
+
+/* Learn More Button Styling */
+.learn-more-btn {
+  display: block;
+  width: 80%;
+  margin: 10px auto 15px;
+  padding: 10px;
+  background-color: #008080;  /* Teal */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #005f5f;
+}
+/* Product Filter Buttons */
+#product-filters {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.filter-btn {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #008080; /* Teal */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #005f5f;
+}
+ 
