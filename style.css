@@ -138,12 +138,12 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .product-card {
-    flex: 0 0 48%;  /* This means: don't grow, don't shrink, fixed width at 48% of container */
-    box-sizing: border-box;
+  .product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
+    gap: 10px; /* Space between grid items */
   }
 }
-
 
 
 /* About Section Styling */
