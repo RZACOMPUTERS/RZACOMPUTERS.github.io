@@ -75,7 +75,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px; /* Space between product cards */
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Product Card Enhancements */
@@ -140,7 +140,7 @@ footer {
 @media (max-width: 600px) {
   .product-card {
     flex: 0 0 48%;  /* This means: don't grow, don't shrink, fixed width at 48% of container */
-     box-sizing: border-box;
+    box-sizing: border-box;
   }
 }
 
